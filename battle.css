@@ -1,0 +1,63 @@
+body {
+  background-image: url(./fondo\ batalla\ naval.jpg);
+  background-color: #cedeea;
+  text-align: center;
+}
+#board {
+  width: 300px;
+  height: 300px;
+}
+.myRow {
+  width: 300px;
+  height: 30px;
+  background-color: #a2d2ff;
+}
+.grid {
+  width: 30px;
+  height: 30px;
+  border: white 1px solid;
+  display: inline-block;
+}
+.position {
+  display: inline-block;
+}
+.horizontal {
+  width: 35px;
+  height: 15px;
+  border: black 1px solid;
+  background-color: #0073ca;
+}
+.vertical {
+  width: 15px;
+  height: 35px;
+  border: black 1px solid;
+  margin-top: 5px;
+  background-color: #0073ca;
+}
+.selected {
+  background-color: #125d98;
+}
+.hit {
+  background-color: #406343;
+}
+.miss {
+  background-color: gray;
+}
+#titulo {
+  font-size: large;
+  color: white;
+  font-style: inherit;
+}
+#button {
+  width: auto;
+  height: auto;
+  border: 1px solid darken black;
+  border-radius: 5px;
+  z-index: 4;
+  outline: 0;
+  box-shadow: none !important;
+  background: linear-gradient(to right, #a2d2ff -35%, #125d98 100%);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
